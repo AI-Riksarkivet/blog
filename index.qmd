@@ -16,7 +16,7 @@ filters:
 - marimo-team/marimo
 ---
 
-# Just another test project
+# Just another test project!
 
 ```python {.marimo}
 #| echo: false
