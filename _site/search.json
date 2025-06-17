@@ -2,14 +2,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "marimo-test",
+    "title": "aira-blog",
     "section": "",
     "text": "import%20marimo%20as%20mo%0Aslider%20%3D%20mo.ui.slider(1%2C%2010%2C%201%2C%20label%3D%22Look%2C%20a%20slider!%22)%0Aslider\n\n\n\nAnd we can respond!\n\n    \n    NaN Batman!\n    \n    %23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20Batman!%22)"
   },
   {
     "objectID": "index.html#more-things",
     "href": "index.html#more-things",
-    "title": "marimo-test",
+    "title": "aira-blog",
     "section": "",
     "text": "And we can respond!\n\n    \n    NaN Batman!\n    \n    %23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20Batman!%22)"
   },
