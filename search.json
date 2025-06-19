@@ -2,28 +2,28 @@
   {
     "objectID": "cite.html",
     "href": "cite.html",
-    "title": "How to cite AI-Riksarkivet",
+    "title": "Cite",
     "section": "",
     "text": "If you have used the AI Lab’s resources or need to refer to the AI Lab at the Swedish National Archives in your research, please use the following reference:\n[Main citation to be added when you have a primary publication]\nExample format: &gt; Author1, A., Author2, B., Author3, C., et al. (2025). [Title of your main publication about AI-Riksarkivet]. Journal Name, Volume(Issue), pages. https://doi.org/[DOI]\nOr for BibTeX:\n@article{AIRiksarkivet2025,\n    author = {[List of authors]},\n    title = {[Title of your main publication]},\n    journal = {[Journal Name]},\n    volume = {[Volume]},\n    number = {[Issue]},\n    year = {2024},\n    issn = {[ISSN]},\n    pages = {[page range]},\n    doi = {[DOI]},\n    url = {[URL]}\n}\n\n\nIf your project has been based at the AI Lab, please use the following formulation in any related publications:\n\n“Computational resources and support for this research was provided by AI-Riksarkivet (the AI Lab) at the Swedish National Archives.”\n\n\n\n\nOur AI Lab develops and maintains various digital resources. Here’s how to properly reference them in your academic work:\n\n\nFor models hosted on our Hugging Face hub (https://huggingface.co/Riksarkivet):\n@online{aira_ml_[identifier],\n    organization = {{Swedish National Archives AI Lab}},\n    title = {[Model designation]},\n    date = {[Release year]},\n    url = {https://huggingface.co/Riksarkivet/[identifier]},\n    note = {Machine learning model}\n}\n\n\n\nReference our curated datasets using:\n@misc{aira_data_[identifier],\n    institution = {{AI-Riksarkivet}},\n    title = {[Dataset description]},\n    year = {[Publication year]},\n    howpublished = {[Access point or repository]},\n    note = {Research dataset}\n}\n\n\n\nWhen referencing our GitHub projects:\n@software{aira_tool_[identifier],\n    organization = {{AI Lab, Swedish National Archives}},\n    title = {[Tool name]},\n    year = {[Release year]},\n    url = {https://github.com/AI-Riksarkivet/[project]},\n    version = {[Version number if applicable]}\n}\n\n\n\n\nFor questions about citations or collaborations: - Email: ai@riksarkivet.se - Website: https://riksarkivet.se/ - GitHub: https://github.com/AI-Riksarkivet - Hugging Face: https://huggingface.co/Riksarkivet"
   },
   {
     "objectID": "cite.html#acknowledgements",
     "href": "cite.html#acknowledgements",
-    "title": "How to cite AI-Riksarkivet",
+    "title": "Cite",
     "section": "",
     "text": "If your project has been based at the AI Lab, please use the following formulation in any related publications:\n\n“Computational resources and support for this research was provided by AI-Riksarkivet (the AI Lab) at the Swedish National Archives.”"
   },
   {
     "objectID": "cite.html#references-for-ai-lab-resources",
     "href": "cite.html#references-for-ai-lab-resources",
-    "title": "How to cite AI-Riksarkivet",
+    "title": "Cite",
     "section": "",
     "text": "Our AI Lab develops and maintains various digital resources. Here’s how to properly reference them in your academic work:\n\n\nFor models hosted on our Hugging Face hub (https://huggingface.co/Riksarkivet):\n@online{aira_ml_[identifier],\n    organization = {{Swedish National Archives AI Lab}},\n    title = {[Model designation]},\n    date = {[Release year]},\n    url = {https://huggingface.co/Riksarkivet/[identifier]},\n    note = {Machine learning model}\n}\n\n\n\nReference our curated datasets using:\n@misc{aira_data_[identifier],\n    institution = {{AI-Riksarkivet}},\n    title = {[Dataset description]},\n    year = {[Publication year]},\n    howpublished = {[Access point or repository]},\n    note = {Research dataset}\n}\n\n\n\nWhen referencing our GitHub projects:\n@software{aira_tool_[identifier],\n    organization = {{AI Lab, Swedish National Archives}},\n    title = {[Tool name]},\n    year = {[Release year]},\n    url = {https://github.com/AI-Riksarkivet/[project]},\n    version = {[Version number if applicable]}\n}"
   },
   {
     "objectID": "cite.html#contact-information",
     "href": "cite.html#contact-information",
-    "title": "How to cite AI-Riksarkivet",
+    "title": "Cite",
     "section": "",
     "text": "For questions about citations or collaborations: - Email: ai@riksarkivet.se - Website: https://riksarkivet.se/ - GitHub: https://github.com/AI-Riksarkivet - Hugging Face: https://huggingface.co/Riksarkivet"
   },
@@ -32,14 +32,14 @@
     "href": "index.html",
     "title": "AI at Riksarkivet",
     "section": "",
-    "text": "#| echo: false\nimport marimo as mo\nslider = mo.ui.slider(1, 10, 1, label=\"Look, a slider!\")\nslider\n\n\nAnd we can respond!\n# No echo here means we do not show the code\nmo.md(\"NaN\" * slider.value + \" AIRA!\")"
+    "text": "import%20marimo%20as%20mo%0Aslider%20%3D%20mo.ui.slider(1%2C%2010%2C%201%2C%20label%3D%22Look%2C%20a%20slider!%22)%0Aslider\n\n\n\nAnd we can respond!\n\n    \n    NaN AIRA!\n    \n    %23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20AIRA!%22)"
   },
   {
     "objectID": "index.html#more-things",
     "href": "index.html#more-things",
     "title": "AI at Riksarkivet",
     "section": "",
-    "text": "And we can respond!\n# No echo here means we do not show the code\nmo.md(\"NaN\" * slider.value + \" AIRA!\")"
+    "text": "And we can respond!\n\n    \n    NaN AIRA!\n    \n    %23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20AIRA!%22)"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -51,14 +51,14 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About AI-Riksarkivet",
+    "title": "About",
     "section": "",
     "text": "[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]"
   },
   {
     "objectID": "about.html#people",
     "href": "about.html#people",
-    "title": "About AI-Riksarkivet",
+    "title": "About",
     "section": "",
     "text": "[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]\n\n\n\n\n\n\n[Bio paragraph 1: Current role and main responsibilities at AI-Riksarkivet. What are your main focus areas and what does your work involve?]\n[Bio paragraph 2: Background, education, and relevant experience. Previous positions and how you came to work at the AI Lab.]"
   }
