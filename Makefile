@@ -14,6 +14,7 @@ install-vscode:
 	code --install-extension quarto.quarto
 
 install-quarto:
+	brew install quarto
 	@echo "📚 Installing Quarto extensions..."
 	quarto add marimo-team/quarto-marimo
 
