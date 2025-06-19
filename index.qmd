@@ -11,6 +11,8 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
+filters:
+- marimo-team/marimo
 ---
 
 # Just another test project!
