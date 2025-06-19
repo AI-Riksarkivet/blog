@@ -1,0 +1,91 @@
+---
+title: "How to cite AI-Riksarkivet"
+---
+
+# How to cite AI-Riksarkivet
+
+If you have used the AI Lab's resources or need to refer to the AI Lab at the Swedish National Archives in your research, please use the following reference:
+
+**[Main citation to be added when you have a primary publication]**
+
+Example format:
+> Author1, A., Author2, B., Author3, C., et al. (2025). [Title of your main publication about AI-Riksarkivet]. *Journal Name*, Volume(Issue), pages. https://doi.org/[DOI]
+
+Or for BibTeX:
+
+```bibtex
+@article{AIRiksarkivet2025,
+    author = {[List of authors]},
+    title = {[Title of your main publication]},
+    journal = {[Journal Name]},
+    volume = {[Volume]},
+    number = {[Issue]},
+    year = {2024},
+    issn = {[ISSN]},
+    pages = {[page range]},
+    doi = {[DOI]},
+    url = {[URL]}
+}
+```
+
+## Acknowledgements
+
+If your project has been based at the AI Lab, please use the following formulation in any related publications:
+
+> "Computational resources and support for this research was provided by AI-Riksarkivet (the AI Lab) at the Swedish National Archives."
+
+## References for AI Lab Resources
+
+Our AI Lab develops and maintains various digital resources. Here's how to properly reference them in your academic work:
+
+### Machine Learning Models
+
+For models hosted on our Hugging Face hub (https://huggingface.co/Riksarkivet):
+
+```bibtex
+@online{aira_ml_[identifier],
+    organization = {{Swedish National Archives AI Lab}},
+    title = {[Model designation]},
+    date = {[Release year]},
+    url = {https://huggingface.co/Riksarkivet/[identifier]},
+    note = {Machine learning model}
+}
+```
+
+### Research Datasets
+
+Reference our curated datasets using:
+
+```bibtex
+@misc{aira_data_[identifier],
+    institution = {{AI-Riksarkivet}},
+    title = {[Dataset description]},
+    year = {[Publication year]},
+    howpublished = {[Access point or repository]},
+    note = {Research dataset}
+}
+```
+
+### Open Source Tools
+
+When referencing our GitHub projects:
+
+```bibtex
+@software{aira_tool_[identifier],
+    organization = {{AI Lab, Swedish National Archives}},
+    title = {[Tool name]},
+    year = {[Release year]},
+    url = {https://github.com/AI-Riksarkivet/[project]},
+    version = {[Version number if applicable]}
+}
+```
+
+## Contact Information
+
+For questions about citations or collaborations:
+- Email: ai@riksarkivet.se
+- Website: https://riksarkivet.se/
+- GitHub: https://github.com/AI-Riksarkivet
+- Hugging Face: https://huggingface.co/Riksarkivet
+
+---

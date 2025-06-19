@@ -1,5 +1,6 @@
 ---
-title: aira-blog
+title: "AI at Riksarkivet"
+subtitle: "A blog from the AI-lab at the National Archives of Sweden"
 marimo-version: 0.13.15
 listing:
   contents: posts
@@ -10,10 +11,6 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
-header: |-
-  # Copyright 2024 Marimo. All rights reserved.
-filters:
-- marimo-team/marimo
 ---
 
 # Just another test project!
@@ -31,5 +28,5 @@ And we can respond!
 
 ```python {.marimo}
 # No echo here means we do not show the code
-mo.md("NaN" * slider.value + " Batman!")
+mo.md("NaN" * slider.value + " AIRA!")
 ```

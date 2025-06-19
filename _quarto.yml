@@ -2,14 +2,32 @@ project:
   type: website
 
 website:
-  title: 'aira-blog'
+  title: 'AIRA Blog'
+  site-url: https://ai-riksarkivet.github.io
+  favicon: assets/riks.png
+  page-footer:
+    center: |
+      ![Contact: <a href="mailto:ai@riksarkivet.se">ai@riksarkivet.se</a>](/assets/riks.png){width="30%"}
   navbar:
     right:
+      - text: Tools
+        menu:
+          - text: MCPs
+            href: https://github.com/AI-Riksarkivet/oxenstierna
+          - text: Models & Datasets
+            href: https://huggingface.co/Riksarkivet
+          - text: HTRflow-APP
+            href: https://github.com/AI-Riksarkivet/htrflow_app
+          - text: HTRflow
+            href: https://github.com/AI-Riksarkivet/htrflow
+      - text: Publications
+        menu:
+          - text: SWENER-1800
+            href: https://journals.uio.no/dhnbpub/article/view/11489
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/AI-Riksarkivet
+
 format:
   html:
     theme:
