@@ -1,7 +1,7 @@
 ---
-title: "AI at Riksarkivet"
-subtitle: "A blog from the AI-lab at the National Archives of Sweden"
+title: AI at Riksarkivet
 marimo-version: 0.13.15
+subtitle: A blog from the AI-lab at the National Archives of Sweden
 listing:
   contents: posts
   sort: date desc

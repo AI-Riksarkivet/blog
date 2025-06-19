@@ -13,12 +13,18 @@ website:
       ![Contact: <a href="mailto:ai@riksarkivet.se">ai@riksarkivet.se</a>](/assets/riks.png){width="30%"}
   navbar:
     right:
+      - text: Models
+        menu:
+          - text: Models (WIP)
+            href: https://huggingface.co/Riksarkivet
+      - text: Datasets
+        menu:
+          - text: Datasets (WIP)
+            href: https://huggingface.co/Riksarkivet
       - text: Tools
         menu:
           - text: MCPs
             href: https://github.com/AI-Riksarkivet/oxenstierna
-          - text: Models & Datasets
-            href: https://huggingface.co/Riksarkivet
           - text: HTRflow-APP
             href: https://github.com/AI-Riksarkivet/htrflow_app
           - text: HTRflow
@@ -28,6 +34,7 @@ website:
           - text: SWENER-1800
             href: https://journals.uio.no/dhnbpub/article/view/11489
       - about.qmd
+      - cite.qmd
       - icon: github
         href: https://github.com/AI-Riksarkivet
 

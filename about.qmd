@@ -1,5 +1,5 @@
 ---
-title: "About AI-Riksarkivet"
+title: "About"
 description: |
   AI-Riksarkivet (AIRA) is the AI Lab at the Swedish National Archives. We work with AI-related R&D and product development to make archival collections more accessible and useful.
   
