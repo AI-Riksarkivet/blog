@@ -15,3 +15,4 @@ AIRA (AI Riksarkivet) is where we explore the intersection of cutting-edge AI te
 todo:
 - test use mkdocs instead? mkdocs feature..
 - first draft article
+https://williambdean.github.io/conjugate/examples/wiki-rental-car/
