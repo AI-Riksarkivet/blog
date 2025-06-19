@@ -5,6 +5,7 @@ website:
   title: 'AIRA Blog'
   site-url: https://ai-riksarkivet.github.io
   favicon: assets/riks.png
+  repo-url: https://github.com/AI-Riksarkivet/blog.github.io
   repo-actions: [source, issue]
   repo-link-target: _blank
   page-footer:
