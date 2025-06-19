@@ -10,3 +10,8 @@ AIRA (AI Riksarkivet) is where we explore the intersection of cutting-edge AI te
 - Interactive notebooks demonstrating our methods
 - Case studies on digitization and analysis of historical documents
 - Open-source tools and datasets we develop
+
+
+todo:
+- test use mkdocs instead? mkdocs feature..
+- first draft article
