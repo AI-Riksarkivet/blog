@@ -1,1 +1,1 @@
-Sitemap: https://AI-Riksarkivet.github.io/blog/sitemap.xml
+Sitemap: https://ai-riksarkivet.github.io/sitemap.xml
