@@ -5,6 +5,8 @@ website:
   title: 'AIRA Blog'
   site-url: https://ai-riksarkivet.github.io
   favicon: assets/riks.png
+  repo-actions: [source, issue]
+  repo-link-target: _blank
   page-footer:
     center: |
       ![Contact: <a href="mailto:ai@riksarkivet.se">ai@riksarkivet.se</a>](/assets/riks.png){width="30%"}
