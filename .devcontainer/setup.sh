@@ -6,7 +6,6 @@ echo "🚀 Setting up Quarto-Marimo development environment..."
 export PATH="/home/linuxbrew/.linuxbrew/bin:/home/vscode/.cargo/bin:$PATH"
 
 echo "🐍 Setting up Python environment..."
-cd /workspace
 uv venv
 uv sync
 
