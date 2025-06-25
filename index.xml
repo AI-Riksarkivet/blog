@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>AIRA</title>
+<link>https://ai-riksarkivet.github.io/</link>
+<atom:link href="https://ai-riksarkivet.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Thu, 19 Jun 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome To AIRA Blog</title>
+  <dc:creator>Gabriel Borg</dc:creator>
+  <link>https://ai-riksarkivet.github.io/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="just-another-test-project" class="level1">
+<h1>Just another test project!!</h1>
+<marimo-island data-app-id="main" data-cell-id="Hbol" data-reactive="true">
+    <marimo-cell-output>
+    <marimo-ui-element object-id="Hbol-0" random-id="f5f2fbc6-9c43-1c59-f29f-d9699f2acf1d"><marimo-slider data-initial-value="1" data-label="&quot;<span class=\&quot;markdown prose dark:prose-invert\&quot;><span class=\&quot;paragraph\&quot;>Look, a slider!</span></span>&quot;" data-start="1" data-stop="10" data-step="1" data-steps="[]" data-debounce="false" data-disabled="false" data-orientation="&quot;horizontal&quot;" data-show-value="false" data-include-input="false" data-full-width="false"></marimo-slider></marimo-ui-element>
+    </marimo-cell-output>
+    <marimo-cell-code hidden="">import%20marimo%20as%20mo%0Aslider%20%3D%20mo.ui.slider(1%2C%2010%2C%201%2C%20label%3D%22Look%2C%20a%20slider!%22)%0Aslider</marimo-cell-code>
+</marimo-island>
+<section id="more-things" class="level2">
+<h2 class="anchored" data-anchor-id="more-things">More things</h2>
+<p>And we can respond!</p>
+<marimo-island data-app-id="main" data-cell-id="MJUe" data-reactive="true">
+    <marimo-cell-output>
+    <span class="markdown prose dark:prose-invert"><span class="paragraph">NaN AIRA!</span></span>
+    </marimo-cell-output>
+    <marimo-cell-code hidden="">%23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20AIRA!%22)</marimo-cell-code>
+</marimo-island>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>test</category>
+  <guid>https://ai-riksarkivet.github.io/posts/welcome/</guid>
+  <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://ai-riksarkivet.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
