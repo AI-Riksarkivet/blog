@@ -1,7 +1,6 @@
 ---
-title: AI at Riksarkivet
+title: Posts
 marimo-version: 0.13.15
-subtitle: A blog from the AI-lab at the National Archives of Sweden
 listing:
   contents: posts
   sort: date desc
@@ -9,26 +8,8 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
+  feed: true
 page-layout: full
-title-block-banner: true
-filters:
-- marimo-team/marimo
+title-block-banner: false
 ---
 
-# Just another test project!
-
-```python {.marimo}
-#| echo: false
-import marimo as mo
-slider = mo.ui.slider(1, 10, 1, label="Look, a slider!")
-slider
-```
-
-## More things
-
-And we can respond!
-
-```python {.marimo}
-# No echo here means we do not show the code
-mo.md("NaN" * slider.value + " AIRA!")
-```

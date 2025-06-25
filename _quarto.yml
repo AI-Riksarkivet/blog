@@ -2,25 +2,19 @@ project:
   type: website
 
 website:
-  title: 'AIRA Blog'
+  title: 'AIRA'
   site-url: https://ai-riksarkivet.github.io
   favicon: assets/riks.png
   repo-url: https://github.com/AI-Riksarkivet/blog.github.io
   repo-actions: [source, issue]
   repo-link-target: _blank
-  page-footer:
-    center: |
-      ![Contact: <a href="mailto:ai@riksarkivet.se">ai@riksarkivet.se</a>](/assets/riks.png){width="30%"}
   navbar:
+    logo: assets/riks.png
     right:
-      - text: Models
-        menu:
-          - text: Models (WIP)
-            href: https://huggingface.co/Riksarkivet
-      - text: Datasets
-        menu:
-          - text: Datasets (WIP)
-            href: https://huggingface.co/Riksarkivet
+      - text: Blog
+        href: index.qmd
+      - text: Models & Datasets
+        href: https://huggingface.co/Riksarkivet
       - text: Tools
         menu:
           - text: MCPs
@@ -35,12 +29,14 @@ website:
             href: https://journals.uio.no/dhnbpub/article/view/11489
       - about.qmd
       - cite.qmd
+    tools:
       - icon: github
         href: https://github.com/AI-Riksarkivet
+      - icon: rss
+        href: index.xml
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css

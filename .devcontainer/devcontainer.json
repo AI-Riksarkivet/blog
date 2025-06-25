@@ -24,22 +24,6 @@
     }
   },
 
-  "forwardPorts": [
-    2718, 
-    7575  
-  ],
-  
-  "portsAttributes": {
-    "2718": {
-      "label": "Marimo Editor",
-      "onAutoForward": "openBrowser"
-    },
-    "7575": {
-      "label": "Quarto Preview",
-      "onAutoForward": "openBrowser"
-    }
-  },
-
   "remoteUser": "vscode",
 
   "containerEnv": {
