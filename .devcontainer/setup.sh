@@ -3,7 +3,8 @@ set -e
 
 echo "🚀 Setting up Quarto-Marimo development environment..."
 
-export PATH="/home/linuxbrew/.linuxbrew/bin:/home/vscode/.cargo/bin:$PATH"
+echo "📦 Checking uv installation..."
+uv --version
 
 echo "🐍 Setting up Python environment..."
 uv venv
