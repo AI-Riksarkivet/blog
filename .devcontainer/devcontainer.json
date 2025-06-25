@@ -1,0 +1,51 @@
+{
+  "name": "Quarto-Marimo Blog Dev",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "marimo-team.vscode-marimo",
+        "quarto.quarto",
+        "charliermarsh.ruff",
+        "astral-sh.ty"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/workspace/.venv/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.terminal.activateEnvironment": true
+      }
+    }
+  },
+
+  "forwardPorts": [
+    2718, 
+    7575  
+  ],
+  
+  "portsAttributes": {
+    "2718": {
+      "label": "Marimo Editor",
+      "onAutoForward": "openBrowser"
+    },
+    "7575": {
+      "label": "Quarto Preview",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  "remoteUser": "vscode",
+
+  "containerEnv": {
+    "UV_SYSTEM_PYTHON": "true",
+    "PATH": "/home/linuxbrew/.linuxbrew/bin:/home/vscode/.cargo/bin:${PATH}"
+  },
+
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
+}
