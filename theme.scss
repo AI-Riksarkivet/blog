@@ -1,0 +1,172 @@
+/*-- scss:defaults --*/
+
+// Custom color definitions
+$custom-navbar-bg: #e5e6ea;      // rgba(164,167,183,255)
+$custom-highlight: #5f6f89;      // rgba(95,111,137,255)
+
+// Colors from your profile manual (converted from Webb/hex format)
+$profile-color-1: #a08361;       // CMYK: 10-30-50-40
+$profile-color-2: #ce792d;       // CMYK: 20-60-90-0
+$profile-color-3: #677229;       // CMYK: 70-50-100-0
+$profile-color-4: #80393a;       // CMYK: 60-90-80-0
+$profile-color-5: #333;       // CMYK: 100-80-50-0
+
+// Override Bootstrap color system with your custom colors
+$blue:    $profile-color-5 !default;     // Using your dark blue
+$orange:  $profile-color-2 !default;     // Using your orange
+$green:   $profile-color-3 !default;     // Using your green
+$red:     $profile-color-4 !default;     // Using your red/burgundy
+$primary: $profile-color-5 !default;     // Set primary to your dark blue
+
+// Body and text colors
+$body-color: #373a3c !default;
+
+// Navbar customization
+$navbar-bg: $custom-navbar-bg !default;
+$navbar-fg: #333333 !default;            // Dark text on light gray navbar
+$navbar-hl: $custom-highlight !default;  // Highlight color for navbar links
+
+// For better contrast, you might want darker text on the light gray navbar
+$navbar-light-color: #333333 !default;
+$navbar-light-hover-color: $custom-highlight !default;
+$navbar-light-active-color: $custom-highlight !default;
+
+// Link colors
+$link-color: $custom-highlight !default;
+
+// Code highlighting
+$code-bg: lighten($custom-highlight, 40%) !default;
+$code-color: darken($custom-highlight, 10%) !default;
+
+// Table of Contents
+$toc-active-border: $custom-highlight !default;
+$toc-inactive-border: lighten($custom-highlight, 20%) !default;
+
+// Callout colors using your brand colors
+$callout-color-note: $profile-color-5 !default;
+$callout-color-tip: $profile-color-3 !default;
+$callout-color-caution: $profile-color-2 !default;
+$callout-color-warning: $profile-color-1 !default;
+$callout-color-important: $profile-color-4 !default;
+
+// Keep the Cosmo theme defaults you had
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$headings-font-weight: 400 !default;
+$enable-rounded: false !default;
+$alert-border-width: 0 !default;
+$progress-height: .5rem !default;
+
+/*-- scss:rules --*/
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+// Typography
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// Ensure navbar text is visible
+.navbar {
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: $navbar-fg !important;
+    transition: color 0.2s ease-in-out;
+    
+    &:hover {
+      color: $custom-highlight !important;
+    }
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:active,
+  .navbar-nav .nav-link:focus {
+    color: $custom-highlight !important;
+    background-color: transparent;
+  }
+}
+
+// Additional navbar states
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-fg;
+      
+      &:hover,
+      &:focus {
+        color: $custom-highlight;
+      }
+      
+      &.active,
+      .show > &.active {
+        color: $custom-highlight;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// Dropdown menu items
+.navbar .dropdown-menu {
+  .dropdown-item {
+    color: $navbar-fg;
+    
+    &:hover,
+    &:focus {
+      color: $custom-highlight;
+      background-color: rgba($custom-highlight, 0.05);
+    }
+    
+    &.active {
+      color: $custom-highlight;
+      background-color: rgba($custom-highlight, 0.1);
+    }
+  }
+}
+
+// Custom link hover effects
+a {
+  transition: color 0.2s ease-in-out;
+  
+  &:hover {
+    color: darken($link-color, 15%);
+  }
+}
+
+// Code block styling
+pre {
+  border-left: 3px solid $custom-highlight;
+  padding-left: 1em;
+}
+
+// Badges
+.badge {
+  &.bg-light {
+    color: $body-color;
+  }
+}
+
+// Progress bars
+.progress {
+  box-shadow: none;
+
+  .progress-bar {
+    font-size: 8px;
+    line-height: 8px;
+    background-color: $custom-highlight;
+  }
+}
+
+// Table of Contents active item
+#TOC .active {
+  font-weight: 500;
+}
+
+// Headers with brand colors
+h1, h2 {
+  color: $profile-color-5;
+}
+
+h3, h4, h5, h6 {
+  color: darken($body-color, 10%);
+}

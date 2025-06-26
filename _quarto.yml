@@ -11,8 +11,6 @@ website:
   navbar:
     logo: assets/riks.png
     right:
-      - text: Blog
-        href: index.qmd
       - text: Models & Datasets
         href: https://huggingface.co/Riksarkivet
       - text: Tools
@@ -38,5 +36,5 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: cosmo #theme.scss
     css: styles.css

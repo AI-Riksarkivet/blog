@@ -1,6 +1,5 @@
 ---
 title: Posts
-marimo-version: 0.13.15
 listing:
   contents: posts
   sort: date desc
@@ -10,6 +9,6 @@ listing:
   filter-ui: false
   feed: true
 page-layout: full
-title-block-banner: false
+title-block-banner: true
 ---
 

@@ -4,9 +4,10 @@ description: "This is a nice description!"
 author: "Gabriel Borg"
 date: "2025-06-19"
 categories: [test]
+image: thumbnail.jpg
+marimo-version: 0.13.15
 filters:
 - marimo-team/marimo
-image: thumbnail.jpg
 ---
 
 
