@@ -14,3 +14,4 @@ AIRA (AI Riksarkivet) is where we explore the intersection of cutting-edge AI te
 
 todo:
 - Add matomo
+- följa: https://dokument.ra.se/dokument/Kommunikation/4.%20Grafisk%20profil/Profilmanual_uppdaterad_2025_klar.pdf
